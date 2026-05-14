@@ -141,7 +141,7 @@ export default function HeroSection() {
           video.style.transform = `scale(1.08) translateY(${window.scrollY * 0.16}px)`;
           ticking = false;
         });
-        ticking = true;
+        ticking = true
       }
     };
 
@@ -154,7 +154,7 @@ export default function HeroSection() {
       className={`hero-section ${loaded ? "hero-section--loaded" : ""}`}
       ref={heroRef}
       aria-label="Hero"
-    >
+    >              
       {/* ── Cinematic background video ── */}
       <div className="hero-section__media" aria-hidden="true">
 
