@@ -138,7 +138,7 @@ export default function HeroSection() {
     const onScroll = () => {
       if (!ticking) {
         requestAnimationFrame(() => {
-          video.style.transform = `scale(1.08) translateY(${window.scrollY * 0.16}px)`;
+          video.style.transform = `scale(1.08) translateY(${window.scrollY * 0.20}px)`;
           ticking = false;
         });
         ticking = true
