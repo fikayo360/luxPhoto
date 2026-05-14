@@ -223,8 +223,7 @@ export default function HeroSection() {
             ref={btnPrimaryRef}
             className="hero-btn hero-btn--primary shimmer-btn"
           >
-            <span className="hero-btn__label">View Portfolio</span>
-            <span className="hero-btn__arrow" aria-hidden="true">↗</span>
+            <span className="hero-btn__label">View Portfolio</span>       
           </button>
 
           <button
